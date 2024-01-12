@@ -1,0 +1,11 @@
+{
+  "name": "habit-tracker",
+  "version": "1.0.0",
+  "description": "This is a basic habit tracker app using the MERN stack.",
+  "main": "app.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "",
+  "license": "ISC"
+}
