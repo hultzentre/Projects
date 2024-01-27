@@ -1,0 +1,18 @@
+version: '3'
+services:
+  server:
+    build:
+      context: ./
+    ports:
+      - '8080:8080'
+    depends_on:
+      - mongodb
+  client:
+    build:
+      context: ./client
+    ports:
+      - '3030:3030'
+  mongodb:
+    image: mongo
+    ports:
+      - '27017:27017'
