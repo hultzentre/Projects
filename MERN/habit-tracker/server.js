@@ -7,7 +7,7 @@ const port = 8080;
 
 
 
-mongoose.connect('mongodb+srv://hultzentre:8hO0FoiS1sQuKWC8@cluster0.ia4bchz.mongodb.net/?retryWrites=true&w=majority', {});
+mongoose.connect('', {});
 const db = mongoose.connection;
 
 db.on('error', console.error.bind(console, 'MongoDB connection error: '));
